@@ -32,5 +32,12 @@ python feats_extract/pos_encoding.py
 python feats_extract/reid_posfeat_merge.py
 ```
 
-### Train
-### Evaluation
+### Train/Evaluation
+```python
+# train
+cd mot_trainer
+scripts/dis_train.sh
+
+# evaluation
+scripts/dis_eval.sh
+```
