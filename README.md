@@ -12,13 +12,13 @@ For generate tracking results and calculate metrics(mota/idf1, etc.) on validati
 ### Prepare ReID and Position Encoding Features
 ```python
 # associate the name of ReID feature with its corresponding ground-truth bbox. For validation:
-python reid2gtbbox.py # or python reid2gtbbox_traindata.py for training data
+python feats_extract/reid2gtbbox.py # or python reid2gtbbox_traindata.py for training data
 
 # generate position encoding feature and concat ground-truth bbox infomation with it
-python pos_encoding.py
+python feats_extract/pos_encoding.py
 
 # merge ReID feature with concated position encoding feature, the merged feature is used for construct dataset which is further used for DETR train/test.
-python reid_posfeat_merge.py
+python feats_extract/reid_posfeat_merge.py
 ```
 
 ### Train
