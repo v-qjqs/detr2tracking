@@ -28,7 +28,8 @@ python feats_extract/reid2gtbbox.py # or python reid2gtbbox_traindata.py for tra
 # generate position encoding feature and concat ground-truth bbox infomation with it
 python feats_extract/pos_encoding.py
 
-# merge ReID feature with concated position encoding feature. The merged feature is used for construct dataset which is further used for DETR train/test.
+# merge ReID feature with concated position encoding feature. The merged feature is used for construct 
+# dataset which is further used for DETR train/test.
 python feats_extract/reid_posfeat_merge.py
 ```
 
