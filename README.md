@@ -47,8 +47,7 @@ scripts/dis_eval.sh
 
 # generate txt file of tracking results and calculate metrics (mota/idf1, etc.)
 cd mot_tracker
-python tracker.py
-                   
+python tracker.py         
 # The above tracker.py does the following roughly for each dataset sequence: (modified from the evaluation process of Neural Solver) 
 # 1) construct node info: read from gt.txt and construct pandas.DataFrame, filter invalid gt bbox (visible<0.2 or clss id not in [1,2])
 # 2) merge matched/associated info (or called edge info, inferred from trained DETR model) with DataFrame in 1)
