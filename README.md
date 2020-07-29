@@ -10,12 +10,11 @@ For generate tracking results and calculate metrics(mota/idf1, etc.) on validati
 ### Pretrain ReID model
 [TorchReID](https://kaiyangzhou.github.io/deep-person-reid/user_guide) is used for training ReID model and generating reid features on the validation set. 
 ### Prepare ReID and Position Encoding Features
-
 ```python
-# train
-python detection_train.py --config config/sepc/retina_r50v1b_fpn_sepc_1x.py
+# associate the name of ReID feature with its corresponding ground-truth bbox. For validation:
+python reid2gtbbox.py (or python reid2gtbbox_traindata.py for training data)
 
-# test
+# 
 python detection_test.py --config config/sepc/retina_r50v1b_fpn_sepc_1x.py
 ```
 
