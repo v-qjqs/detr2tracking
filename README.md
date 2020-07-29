@@ -3,6 +3,7 @@ DETR based ([End-to-End Object Detection with Transformers](https://arxiv.org/ab
 
 ## Install
 For train/evaluate DETR models, mmcv and another common packages are needed. *resnet50_fc512* is used.
+
 For generate tracking results and calculate metrics(mota/idf1, etc.) on validation dataset, following the installation of [Neural Solver](https://github.com/dvl-tum/mot_neural_solver)
 
 ## Running Process
