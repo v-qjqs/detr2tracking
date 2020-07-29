@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=8 --use_env --master_port 29504 dis_eval.py --embed_dim=512 --dim_feedforward=2048 --num_heads=4 --out_dir='./exp_evaldelete_normalized'

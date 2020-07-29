@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=8 --use_env --master_port 29507 dis_train.py --embed_dim=512 --epochs=250 --dim_feedforward=2048 --num_heads=4 --lr=0.01 --batch_size=4 --shuffle_in_frame --out_dir='./exp_shuffleprob_normalized_delete' --shuffle_prob=0.9
