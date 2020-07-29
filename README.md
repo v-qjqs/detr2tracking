@@ -12,7 +12,7 @@ For generate tracking results and calculate metrics(mota/idf1, etc.) on validati
 ### Prepare ReID and Position Encoding Features
 ```python
 # associate the name of ReID feature with its corresponding ground-truth bbox. For validation:
-python reid2gtbbox.py (or python reid2gtbbox_traindata.py for training data)
+python reid2gtbbox.py # or python reid2gtbbox_traindata.py for training data
 
 # 
 python detection_test.py --config config/sepc/retina_r50v1b_fpn_sepc_1x.py
