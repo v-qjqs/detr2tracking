@@ -32,12 +32,18 @@ python feats_extract/pos_encoding.py
 python feats_extract/reid_posfeat_merge.py
 ```
 
-### Train/Evaluation
+### Train
 ```python
-# train
+# training of DETR model
 cd mot_trainer
 scripts/dis_train.sh
-
-# evaluation
-scripts/dis_eval.sh
 ```
+
+### Evaluation
+```python
+# generates matched label infomation (Pandas DataFrame) on validation set based on trained DETR model
+scripts/dis_eval.sh
+
+
+```
+
