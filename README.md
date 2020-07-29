@@ -41,9 +41,11 @@ scripts/dis_train.sh
 
 ### Evaluation
 ```python
-# generates matched label infomation (Pandas DataFrame) on validation set based on trained DETR model
+# generate matched label infomation (Pandas DataFrame) on validation set based on trained DETR model
 scripts/dis_eval.sh
 
-
+# generate txt file of tracking results and calculate metrics (mota/idf1, etc.)
+cd mot_tracker
+python tracker.py
 ```
 
