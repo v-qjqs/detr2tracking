@@ -1,7 +1,7 @@
 # detr2tracking
 DETR ([End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)) based Multiple Object Tracking
 
-## Install
+## Installation
 For train/evaluate DETR models, mmcv and another common packages are needed.
 
 For generate tracking results and calculate metrics(mota/idf1, etc.) on validation dataset, following the installation of [Neural Solver](https://github.com/dvl-tum/mot_neural_solver)
