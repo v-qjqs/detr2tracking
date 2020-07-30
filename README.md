@@ -20,7 +20,7 @@ mot17_data_eval=['MOT17-11-FRCNN', 'MOT17-04-FRCNN']
 ```
 
 ### Pretrain ReID model
-[TorchReID](https://kaiyangzhou.github.io/deep-person-reid/user_guide) is used for training ReID model and generating reid features on the validation set.  *resnet50_fc512* model is used.
+[TorchReID](https://kaiyangzhou.github.io/deep-person-reid/user_guide) is used for training ReID model and generating reid features on the validation set. Model *resnet50_fc512* is used.
 ### Prepare ReID and Position Encoding Features
 ```python
 # associate the name of ReID feature with its corresponding ground-truth bbox. 
