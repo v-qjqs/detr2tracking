@@ -1,5 +1,5 @@
 # detr2tracking
-DETR based ([End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)) Multiple Object Tracking
+DETR ([End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)) based Multiple Object Tracking
 
 ## Install
 For train/evaluate DETR models, mmcv and another common packages are needed.
