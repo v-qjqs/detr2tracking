@@ -183,7 +183,6 @@ def default_collate(batch):
         return torch.tensor(batch)
     elif isinstance(elem, string_classes):
         return batch
-        # raise ValueError
     elif isinstance(elem, container_abcs.Mapping):
         return {key: default_collate([d[key] for d in batch]) for key in elem}
     elif isinstance(elem, tuple) and hasattr(elem, '_fields'):
