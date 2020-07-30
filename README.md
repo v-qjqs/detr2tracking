@@ -6,6 +6,8 @@ For train/evaluate DETR models, mmcv and another common packages are needed. *re
 
 For generate tracking results and calculate metrics(mota/idf1, etc.) on validation dataset, following the installation of [Neural Solver](https://github.com/dvl-tum/mot_neural_solver)
 
+All the requirements are list in requirements.txt
+
 ## Running Process
 ### Datasets
 ```python
