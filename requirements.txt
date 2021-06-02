@@ -106,7 +106,7 @@ tqdm==4.46.0
 -e git+https://github.com/gbraso/tracking_wo_bnw.git@045b7869c02c7bd54146552b5ee4f6a987a0ab1a#egg=tracktor
 traitlets==4.3.3
 typed-ast==1.4.1
-urllib3==1.25.9
+urllib3==1.26.5
 wcwidth==0.1.9
 Werkzeug==1.0.1
 wrapt==1.12.1
