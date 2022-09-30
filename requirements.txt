@@ -32,7 +32,7 @@ ipython-genutils==0.2.0
 isodate==0.6.0
 isort==4.3.21
 jedi==0.17.0
-joblib==0.15.1
+joblib==1.2.0
 jsonpickle==1.4.1
 kiwisolver==1.2.0
 lapsolver==1.1.0
